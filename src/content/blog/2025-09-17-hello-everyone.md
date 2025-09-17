@@ -20,3 +20,5 @@ const defer = (fn, ...args) => setTimeout(fn, 1, ...args);
 
 defer(console.log, 'a'), console.log('b'); // logs 'b' then 'a'
 ```
+
+![Mangalabe](/astropaper-og.jpg)
